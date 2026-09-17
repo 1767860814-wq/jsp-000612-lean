@@ -1,0 +1,42 @@
+test_git_suffix (test_prepare_submission.PrepareTests.test_git_suffix) ... ok
+test_no_credentials (test_prepare_submission.PrepareTests.test_no_credentials) ... ok
+test_no_lock_branch (test_prepare_submission.PrepareTests.test_no_lock_branch) ... ok
+test_no_sha256 (test_prepare_submission.PrepareTests.test_no_sha256) ... ok
+test_no_shell_branch (test_prepare_submission.PrepareTests.test_no_shell_branch) ... ok
+test_no_short_commit (test_prepare_submission.PrepareTests.test_no_short_commit) ... ok
+test_no_subpath (test_prepare_submission.PrepareTests.test_no_subpath) ... ok
+test_no_traversal_branch (test_prepare_submission.PrepareTests.test_no_traversal_branch) ... ok
+test_no_url_query (test_prepare_submission.PrepareTests.test_no_url_query) ... ok
+test_no_wrong_host (test_prepare_submission.PrepareTests.test_no_wrong_host) ... ok
+test_no_zero_commit (test_prepare_submission.PrepareTests.test_no_zero_commit) ... ok
+test_patch_duplicate_evidence (test_prepare_submission.PrepareTests.test_patch_duplicate_evidence) ... ok
+test_patch_duplicate_target (test_prepare_submission.PrepareTests.test_patch_duplicate_target) ... ok
+test_patch_missing_target (test_prepare_submission.PrepareTests.test_patch_missing_target) ... ok
+test_patch_preserves_fields_and_neighbours (test_prepare_submission.PrepareTests.test_patch_preserves_fields_and_neighbours) ... ok
+test_reject_nonexistent_local_commit (test_prepare_submission.PrepareTests.test_reject_nonexistent_local_commit) ... ok
+test_templates_fully_render (test_prepare_submission.PrepareTests.test_templates_fully_render) ... ok
+test_uppercase_commit (test_prepare_submission.PrepareTests.test_uppercase_commit) ... ok
+test_valid (test_prepare_submission.PrepareTests.test_valid) ... ok
+test_branch_ahead_still_contains_pinned_commit (test_release_gate.ReleaseGateTests.test_branch_ahead_still_contains_pinned_commit) ... ok
+test_branch_not_containing_pin_rejected (test_release_gate.ReleaseGateTests.test_branch_not_containing_pin_rejected) ... ok
+test_changed_proof_rejected (test_release_gate.ReleaseGateTests.test_changed_proof_rejected) ... ok
+test_exact_release_passes (test_release_gate.ReleaseGateTests.test_exact_release_passes) ... ok
+test_extra_compiled_cache_rejected (test_release_gate.ReleaseGateTests.test_extra_compiled_cache_rejected) ... ok
+test_git_replace_cannot_hide_bad_release (test_release_gate.ReleaseGateTests.test_git_replace_cannot_hide_bad_release) ... ok
+test_invalid_branch_syntax_rejected (test_release_gate.ReleaseGateTests.test_invalid_branch_syntax_rejected) ... ok
+test_invalid_commit_syntax_rejected (test_release_gate.ReleaseGateTests.test_invalid_commit_syntax_rejected) ... ok
+test_missing_branch_rejected (test_release_gate.ReleaseGateTests.test_missing_branch_rejected) ... ok
+test_missing_commit_rejected (test_release_gate.ReleaseGateTests.test_missing_commit_rejected) ... ok
+test_missing_file_rejected (test_release_gate.ReleaseGateTests.test_missing_file_rejected) ... ok
+test_non_commit_object_rejected (test_release_gate.ReleaseGateTests.test_non_commit_object_rejected) ... ok
+test_remote_tracking_branch_supported_but_not_public_certified (test_release_gate.ReleaseGateTests.test_remote_tracking_branch_supported_but_not_public_certified) ... ok
+test_rewritten_candidate_manifest_rejected (test_release_gate.ReleaseGateTests.test_rewritten_candidate_manifest_rejected) ... ok
+test_symlink_rejected (test_release_gate.ReleaseGateTests.test_symlink_rejected) ... ok
+test_trusted_manifest_traversal_rejected (test_release_gate.ReleaseGateTests.test_trusted_manifest_traversal_rejected) ... ok
+test_unchanged_proof_changed_checker_rejected (test_release_gate.ReleaseGateTests.test_unchanged_proof_changed_checker_rejected) ... ok
+test_uncommitted_changes_do_not_replace_pinned_blobs (test_release_gate.ReleaseGateTests.test_uncommitted_changes_do_not_replace_pinned_blobs) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 1.662s
+
+OK

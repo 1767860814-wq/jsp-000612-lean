@@ -1,0 +1,3 @@
+'test_only_claim' depends on axioms: [test_only_unproved]
+
+EXIT_CODE: 0

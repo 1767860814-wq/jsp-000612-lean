@@ -1,0 +1,5 @@
+UTC: 2026-09-17T14:24:51.838693+00:00
+Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)
+/mnt/data/jsp612_prize_audit/round2/JSP000612_Ready_For_Review_20260917/build/GateCase_changed_to_true.lean:4:0: error: TYPE_MISMATCH: RejectedCandidates.changedToTrue does not match JSP612Challenge.WitnessStatement
+
+EXIT_CODE: 1

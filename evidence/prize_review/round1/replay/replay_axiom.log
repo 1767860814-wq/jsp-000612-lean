@@ -1,0 +1,8 @@
+UTC_START: 2026-09-17T14:11:29.679329+00:00
+Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)
+CHECK_TYPE: same-Lean-kernel dependency replay, not an independent implementation
+SOURCE_SHA256: 587ea5a73de02a7b8916c7ab79baa1755c027c011551330553bfbba076aaa368
+CHECKER_SHA256: e3d210ea912d0a48191794a27d5eeaa3166cddf045f3f2ffad6f3f24801be75c
+uncaught exception: Unapproved axiom: test_only_unproved
+
+EXIT_CODE: 1

@@ -1,0 +1,32 @@
+{
+  "started_utc": "2026-09-17T14:22:19.974487+00:00",
+  "ended_utc": "2026-09-17T14:26:13.390199+00:00",
+  "command": [
+    "python3",
+    "/mnt/data/jsp612_prize_audit/round2/JSP000612_Ready_For_Review_20260917/tools/isolate.py",
+    "--uid",
+    "1000",
+    "--gid",
+    "1000",
+    "--cwd",
+    "/mnt/data/jsp612_prize_audit/round2/JSP000612_Ready_For_Review_20260917",
+    "--cpu-seconds",
+    "180",
+    "--memory-mib",
+    "8192",
+    "--",
+    "bash",
+    "verify_submission.sh"
+  ],
+  "exit_code": 0,
+  "seconds": 233.41584855199994,
+  "fresh_project_cache": true,
+  "standard_lake_entry": true,
+  "fresh_internet_dependency_acquisition": false,
+  "external_caches_reused": true,
+  "network_denial_pass": true,
+  "pass_marker": true,
+  "uid_1000": true,
+  "JSP000612.lean_sha256": "587ea5a73de02a7b8916c7ab79baa1755c027c011551330553bfbba076aaa368",
+  "build/JSP000612.olean_sha256": "b31bbdb7d7b6e900dce03621f5bcb554861380942ab9844ff44ca69ca3457309"
+}

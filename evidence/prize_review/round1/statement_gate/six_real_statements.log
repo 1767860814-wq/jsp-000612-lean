@@ -1,0 +1,10 @@
+UTC: 2026-09-17T14:11:55.344539+00:00
+Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)
+EXACT_TYPE_AND_AXIOMS_PASS: JSP612.jsp000612 against JSP612Challenge.WitnessStatement
+EXACT_TYPE_AND_AXIOMS_PASS: JSP612.bounded_attained_minima against JSP612Challenge.AttainedStatement
+EXACT_TYPE_AND_AXIOMS_PASS: JSP612.no_chromatic_threshold_for_extremal_divergence against JSP612Challenge.NoThresholdStatement
+EXACT_TYPE_AND_AXIOMS_PASS: JSP612.no_divergence_on_admissible_orders against JSP612Challenge.AdmissibleStatement
+EXACT_TYPE_AND_AXIOMS_PASS: JSP612.originalExtremalConjecture_false against JSP612Challenge.OriginalStatement
+EXACT_TYPE_AND_AXIOMS_PASS: JSP612.extremal_not_tendsto_infinity against JSP612Challenge.TopologicalStatement
+
+EXIT_CODE: 0

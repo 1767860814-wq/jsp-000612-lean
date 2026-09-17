@@ -1,0 +1,9 @@
+ISOLATED_UID: 1000
+ISOLATED_GID: 1000
+CPU_LIMIT_SECONDS: 180
+VIRTUAL_MEMORY_LIMIT_MIB: 8192
+NO_NEW_PRIVILEGES: true
+NETWORK_SYSCALLS_DENIED: socket,socketpair,connect,accept,accept4,bind,listen,sendto,sendmsg,sendmmsg,recvfrom,recvmsg,recvmmsg,shutdown,getsockname,getpeername,setsockopt,getsockopt
+NETWORK_DENIAL_PROBE: PASS (EPERM)
+COMMAND: ['bash', 'verify_submission.sh']
+MANIFEST: PASS (93 files)

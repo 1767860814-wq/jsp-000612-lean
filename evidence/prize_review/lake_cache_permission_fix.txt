@@ -1,0 +1,9 @@
+Adjusted ownership of generated Lake cache/lock paths only. No source bytes changed.
+/mnt/data/jsp612_prize_audit/environment/Lean419_Offline_linux_x86_64/project/JSP301/.lake/packages/LeanSearchClient/.lake
+/mnt/data/jsp612_prize_audit/environment/Lean419_Offline_linux_x86_64/project/JSP301/.lake/packages/batteries/.lake
+/mnt/data/jsp612_prize_audit/environment/Lean419_Offline_linux_x86_64/project/JSP301/.lake/packages/aesop/.lake
+/mnt/data/jsp612_prize_audit/environment/Lean419_Offline_linux_x86_64/project/JSP301/.lake/packages/importGraph/.lake
+/mnt/data/jsp612_prize_audit/environment/Lean419_Offline_linux_x86_64/project/JSP301/.lake/packages/proofwidgets/.lake
+/mnt/data/jsp612_prize_audit/environment/Lean419_Offline_linux_x86_64/project/JSP301/.lake/packages/Qq/.lake
+/mnt/data/jsp612_prize_audit/environment/Lean419_Offline_linux_x86_64/project/JSP301/.lake/packages/plausible/.lake
+/mnt/data/jsp612_prize_audit/environment/Lean419_Offline_linux_x86_64/project/JSP301/.lake/packages/mathlib/.lake

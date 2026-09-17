@@ -1,0 +1,17 @@
+{
+  "labelled_graphs": 33868,
+  "cuts_enumerated": 1065510,
+  "proper_vertex_tests": 45059,
+  "proper_edge_tests": 814,
+  "critical_families": [
+    {"n": 3, "k": 3, "labelled_critical_graphs": 1, "minimum_actual_deletions": 1},
+    {"n": 4, "k": 4, "labelled_critical_graphs": 1, "minimum_actual_deletions": 2},
+    {"n": 5, "k": 3, "labelled_critical_graphs": 12, "minimum_actual_deletions": 1},
+    {"n": 5, "k": 5, "labelled_critical_graphs": 1, "minimum_actual_deletions": 4},
+    {"n": 6, "k": 4, "labelled_critical_graphs": 72, "minimum_actual_deletions": 3},
+    {"n": 6, "k": 6, "labelled_critical_graphs": 1, "minimum_actual_deletions": 6}
+  ],
+  "seconds": 0.095397,
+  "all_assertions_passed": true,
+  "is_independent_lean_checker": false
+}

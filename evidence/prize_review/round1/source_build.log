@@ -1,0 +1,74 @@
+EXECUTING_UID: 1000
+SYSTEM: Linux x86_64
+CPU_LIMIT_SECONDS: 120
+VIRTUAL_MEMORY_LIMIT_KIB: 8388608
+UTC_START: 2026-09-17T14:10:14Z
+Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)
+TRUST_LEVEL: 0
+SOURCE: /mnt/data/jsp612_prize_audit/round1/JSP000612_Ready_For_Review_20260917/JSP000612.lean
+SOURCE_SHA256: 587ea5a73de02a7b8916c7ab79baa1755c027c011551330553bfbba076aaa368  /mnt/data/jsp612_prize_audit/round1/JSP000612_Ready_For_Review_20260917/JSP000612.lean
+'JSP612.normalized_coloring' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.blocker_color' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.path_color_lt_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.link_color_lt_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.successive_path_colors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.not_colorable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.upperColor_valid' depends on axioms: [propext, Quot.sound]
+'JSP612.colorable_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.puncturedColor_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.path_mem_of_not_colorable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.exists_critical_subgraph' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.order_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.paletteEdges_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.palette_pair_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.same_side_edge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.deletionEdges_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.deletionEdges_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.deletion_colorable_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.IsCriticalSuccessor.chromaticNumber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.arbitrarily_large_critical_bipartizable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.no_diverging_uniform_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.no_eventually_diverging_uniform_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.no_eventual_chromatic_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.four_critical_three_deletions' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.jsp000612' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.critical_iso' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.deletion_certificate_iso' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.labelled_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.critical_standard' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.extremal_le_of_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.extremal_attained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.extremal_of_empty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.cofinally_bounded_extremal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.no_extremal_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.extremal_not_tendsto_infinity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.originalExtremalConjecture_false' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.no_chromatic_threshold_for_extremal_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.attainable_empty_of_order_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.extremal_infinite_of_order_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.attainable_count_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.no_divergence_on_admissible_orders' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP612.bounded_attained_minima' depends on axioms: [propext, Classical.choice, Quot.sound]
+def JSP612.IsChromaticCritical.{u_1} : {V : Type u_1} → SimpleGraph V → ℕ → Prop :=
+fun {V} G k => G.chromaticNumber = ↑k ∧ ∀ (J : G.Subgraph), J ≠ ⊤ → J.coe.chromaticNumber < ↑k
+def JSP612.attainableCounts : ℕ → ℕ → Set ℕ :=
+fun k n => {m | ∃ G E, JSP612.IsChromaticCritical G k ∧ ↑E ⊆ G.edgeSet ∧ E.card = m ∧ (G.deleteEdges ↑E).Colorable 2}
+def JSP612.extremalDeletionNumber : ℕ → ℕ → ℕ∞ :=
+fun k n => sInf ((fun m => ↑m) '' JSP612.attainableCounts k n)
+def JSP612.originalExtremalConjecture : Prop :=
+∀ (k : ℕ), 4 ≤ k → ∀ (b : ℕ), ∃ N, ∀ n ≥ N, ↑b < JSP612.extremalDeletionNumber k n
+JSP612.jsp000612 (k : ℕ) (hk : 3 ≤ k) (N : ℕ) :
+  ∃ V G E,
+    Finite V ∧
+      N ≤ Nat.card V ∧
+        JSP612.IsChromaticCritical G k ∧ ↑E ⊆ G.edgeSet ∧ E.card ≤ (k - 1).choose 2 ∧ (G.deleteEdges ↑E).Colorable 2
+JSP612.bounded_attained_minima (k : ℕ) (hk : 3 ≤ k) (N : ℕ) :
+  ∃ n ≥ N, ∃ m, 0 < m ∧ m ≤ (k - 1).choose 2 ∧ m ∈ JSP612.attainableCounts k n ∧ JSP612.extremalDeletionNumber k n = ↑m
+JSP612.originalExtremalConjecture_false : ¬JSP612.originalExtremalConjecture
+JSP612.extremal_not_tendsto_infinity (k : ℕ) (hk : 3 ≤ k) :
+  ¬Filter.Tendsto (JSP612.extremalDeletionNumber k) Filter.atTop (nhds ⊤)
+JSP612.no_divergence_on_admissible_orders (k : ℕ) (hk : 3 ≤ k) :
+  ¬∀ (b : ℕ), ∃ N, ∀ n ≥ N, (JSP612.attainableCounts k n).Nonempty → ↑b < JSP612.extremalDeletionNumber k n
+EXIT_CODE: 0
+UTC_END: 2026-09-17T14:10:38Z
+OUTPUT_SHA256: b31bbdb7d7b6e900dce03621f5bcb554861380942ab9844ff44ca69ca3457309  /mnt/data/jsp612_prize_audit/round1/JSP000612_Ready_For_Review_20260917/build/JSP000612.olean

@@ -1,0 +1,15 @@
+UTC_START: 2026-09-17T14:11:08.446755+00:00
+Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)
+CHECK_TYPE: same-Lean-kernel dependency replay, not an independent implementation
+SOURCE_SHA256: 587ea5a73de02a7b8916c7ab79baa1755c027c011551330553bfbba076aaa368
+CHECKER_SHA256: e3d210ea912d0a48191794a27d5eeaa3166cddf045f3f2ffad6f3f24801be75c
+ROOT_THEOREMS: 127
+CLOSURE_DECLARATIONS: 8000
+AXIOMS: #[Classical.choice, Quot.sound, propext]
+INTENTIONAL_PROOF_MUTATION: JSP612.originalExtremalConjecture_false := True.intro
+uncaught exception: (kernel) declaration type mismatch, 'JSP612.originalExtremalConjecture_false' has type
+  True
+but it is expected to have type
+  Not JSP612.originalExtremalConjecture
+
+EXIT_CODE: 1

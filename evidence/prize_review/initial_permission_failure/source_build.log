@@ -1,0 +1,3 @@
+warning: mathlib: repository '././.lake/packages/mathlib' has local changes
+error: permission denied (error code: 13)
+  file: ././.lake/packages/mathlib/.lake/lakefile.olean.lock
