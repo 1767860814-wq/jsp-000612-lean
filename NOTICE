@@ -1,0 +1,14 @@
+JSP-000612 submission package
+
+The formalization and new verification utilities in this package are provided
+under Apache-2.0. No unconfirmed recipient identity is asserted.
+
+The declaration-replay algorithm in tools/Recheck.lean is adapted from
+Lean 4.19.0, Lean/Replay.lean, copyright (c) 2023 Kim Morrison, Apache-2.0.
+The original copyright and attribution are retained in that file.
+The adaptation calls the same Lean kernel directly to avoid asynchronous
+elaborator-name collisions; it is not an independent kernel implementation.
+
+Lean and Mathlib are dependencies, not included binaries in this package.
+Their own licenses and attribution apply. Historical mathematical priority
+is credited in SOURCES.md and PROOF_EN.md, particularly to Rödl and Tuza (1985).

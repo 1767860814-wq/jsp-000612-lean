@@ -1,0 +1,212 @@
+[
+  {
+    "name": "JSP612.normalized_coloring",
+    "start_line": 82,
+    "end_line": 97
+  },
+  {
+    "name": "JSP612.blocker_color",
+    "start_line": 100,
+    "end_line": 105
+  },
+  {
+    "name": "JSP612.path_color_lt_two",
+    "start_line": 108,
+    "end_line": 115
+  },
+  {
+    "name": "JSP612.link_color_lt_two",
+    "start_line": 118,
+    "end_line": 125
+  },
+  {
+    "name": "JSP612.successive_path_colors",
+    "start_line": 128,
+    "end_line": 143
+  },
+  {
+    "name": "JSP612.not_colorable",
+    "start_line": 146,
+    "end_line": 172
+  },
+  {
+    "name": "JSP612.upperColor_valid",
+    "start_line": 181,
+    "end_line": 190
+  },
+  {
+    "name": "JSP612.colorable_succ",
+    "start_line": 192,
+    "end_line": 193
+  },
+  {
+    "name": "JSP612.puncturedColor_valid",
+    "start_line": 203,
+    "end_line": 213
+  },
+  {
+    "name": "JSP612.path_mem_of_not_colorable",
+    "start_line": 216,
+    "end_line": 226
+  },
+  {
+    "name": "JSP612.exists_critical_subgraph",
+    "start_line": 241,
+    "end_line": 283
+  },
+  {
+    "name": "JSP612.order_lower_bound",
+    "start_line": 286,
+    "end_line": 295
+  },
+  {
+    "name": "JSP612.paletteEdges_card_le",
+    "start_line": 308,
+    "end_line": 315
+  },
+  {
+    "name": "JSP612.palette_pair_mem",
+    "start_line": 317,
+    "end_line": 322
+  },
+  {
+    "name": "JSP612.same_side_edge",
+    "start_line": 332,
+    "end_line": 338
+  },
+  {
+    "name": "JSP612.deletionEdges_card_le",
+    "start_line": 347,
+    "end_line": 354
+  },
+  {
+    "name": "JSP612.deletionEdges_subset",
+    "start_line": 357,
+    "end_line": 361
+  },
+  {
+    "name": "JSP612.deletion_colorable_two",
+    "start_line": 364,
+    "end_line": 376
+  },
+  {
+    "name": "JSP612.IsCriticalSuccessor.chromaticNumber",
+    "start_line": 391,
+    "end_line": 398
+  },
+  {
+    "name": "JSP612.arbitrarily_large_critical_bipartizable",
+    "start_line": 403,
+    "end_line": 415
+  },
+  {
+    "name": "JSP612.no_diverging_uniform_lower_bound",
+    "start_line": 427,
+    "end_line": 437
+  },
+  {
+    "name": "JSP612.no_eventually_diverging_uniform_lower_bound",
+    "start_line": 441,
+    "end_line": 457
+  },
+  {
+    "name": "JSP612.no_eventual_chromatic_threshold",
+    "start_line": 461,
+    "end_line": 467
+  },
+  {
+    "name": "JSP612.four_critical_three_deletions",
+    "start_line": 471,
+    "end_line": 477
+  },
+  {
+    "name": "JSP612.jsp000612",
+    "start_line": 488,
+    "end_line": 502
+  },
+  {
+    "name": "JSP612.critical_iso",
+    "start_line": 512,
+    "end_line": 546
+  },
+  {
+    "name": "JSP612.deletion_certificate_iso",
+    "start_line": 549,
+    "end_line": 577
+  },
+  {
+    "name": "JSP612.labelled_witness",
+    "start_line": 580,
+    "end_line": 597
+  },
+  {
+    "name": "JSP612.critical_standard",
+    "start_line": 606,
+    "end_line": 611
+  },
+  {
+    "name": "JSP612.extremal_le_of_mem",
+    "start_line": 626,
+    "end_line": 628
+  },
+  {
+    "name": "JSP612.extremal_attained",
+    "start_line": 631,
+    "end_line": 638
+  },
+  {
+    "name": "JSP612.extremal_of_empty",
+    "start_line": 641,
+    "end_line": 643
+  },
+  {
+    "name": "JSP612.cofinally_bounded_extremal",
+    "start_line": 646,
+    "end_line": 656
+  },
+  {
+    "name": "JSP612.no_extremal_divergence",
+    "start_line": 660,
+    "end_line": 665
+  },
+  {
+    "name": "JSP612.extremal_not_tendsto_infinity",
+    "start_line": 668,
+    "end_line": 674
+  },
+  {
+    "name": "JSP612.originalExtremalConjecture_false",
+    "start_line": 682,
+    "end_line": 684
+  },
+  {
+    "name": "JSP612.no_chromatic_threshold_for_extremal_divergence",
+    "start_line": 687,
+    "end_line": 691
+  },
+  {
+    "name": "JSP612.attainable_empty_of_order_lt",
+    "start_line": 699,
+    "end_line": 706
+  },
+  {
+    "name": "JSP612.extremal_infinite_of_order_lt",
+    "start_line": 708,
+    "end_line": 710
+  },
+  {
+    "name": "JSP612.attainable_count_positive",
+    "start_line": 713,
+    "end_line": 723
+  },
+  {
+    "name": "JSP612.no_divergence_on_admissible_orders",
+    "start_line": 727,
+    "end_line": 734
+  },
+  {
+    "name": "JSP612.bounded_attained_minima",
+    "start_line": 737,
+    "end_line": 745
+  }
+]

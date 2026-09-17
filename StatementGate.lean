@@ -1,0 +1,10 @@
+import SubmissionChallenge
+import GateSupport
+import JSP000612
+
+audit_exact JSP612.jsp000612 against JSP612Challenge.WitnessStatement
+audit_exact JSP612.bounded_attained_minima against JSP612Challenge.AttainedStatement
+audit_exact JSP612.no_chromatic_threshold_for_extremal_divergence against JSP612Challenge.NoThresholdStatement
+audit_exact JSP612.no_divergence_on_admissible_orders against JSP612Challenge.AdmissibleStatement
+audit_exact JSP612.originalExtremalConjecture_false against JSP612Challenge.OriginalStatement
+audit_exact JSP612.extremal_not_tendsto_infinity against JSP612Challenge.TopologicalStatement
