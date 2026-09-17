@@ -1,0 +1,5 @@
+UTC: 2026-09-17T13:33:20.741339+00:00
+Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)
+/mnt/data/jsp612_work/fresh_checkout/build/GateCase_explicit_assumption.lean:4:0: error: TYPE_MISMATCH: RejectedCandidates.explicitHypothesis does not match JSP612Challenge.WitnessStatement
+
+EXIT_CODE: 1

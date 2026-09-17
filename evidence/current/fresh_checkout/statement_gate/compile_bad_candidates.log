@@ -1,0 +1,5 @@
+UTC: 2026-09-17T13:33:12.356408+00:00
+Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)
+/mnt/data/jsp612_work/fresh_checkout/tests/RejectedCandidates.lean:24:8: warning: declaration uses 'sorry'
+
+EXIT_CODE: 0

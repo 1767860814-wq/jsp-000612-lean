@@ -1,0 +1,51 @@
+[
+  {
+    "zip": "Lean419_Offline_linux_x86_64.part01.zip",
+    "bytes": 418832593,
+    "sha256": "9a81ec3e0b719fa321a4d435b39ec9c21f6b6aa8a612a7b1a45c9893ace76faa",
+    "part_sha256": "7aefc868aec3e156d95814f865525f94cdc2219b4c6a71564aed4c1d3eb3378b",
+    "passed": true
+  },
+  {
+    "zip": "Lean419_Offline_linux_x86_64.part02.zip",
+    "bytes": 416158347,
+    "sha256": "c7d38d1dc21d9503fc390ada8c3ecd4c5599d6379567defa14b62a46f3536f4f",
+    "part_sha256": "f67f09a5787247637a1aaad5a485e193e78510bfae1ad01864ffa13cc08b7398",
+    "passed": true
+  },
+  {
+    "zip": "Lean419_Offline_linux_x86_64.part03.zip",
+    "bytes": 416039241,
+    "sha256": "841248674e76d1d5578aa4338c595bc6c7ea0f04859505043eb11c82ba828e15",
+    "part_sha256": "48357a86f7c4285f567718cc4e151c40a91309cc69f525a44b7c70af70fedfc9",
+    "passed": true
+  },
+  {
+    "zip": "Lean419_Offline_linux_x86_64.part04.zip",
+    "bytes": 416151570,
+    "sha256": "70a1144125cf2a800791a6c426b0021671d721770f9f5f49bf9719e20fbc295c",
+    "part_sha256": "5403ded9e9f7572391f47c084d26f52a306e1be9655f8ed277372b8644b50f2f",
+    "passed": true
+  },
+  {
+    "zip": "Lean419_Offline_linux_x86_64.part05.zip",
+    "bytes": 416924612,
+    "sha256": "5b728bd5659cdd3c20be93df05097723526d30933a2aa1147c1ca26bb609de69",
+    "part_sha256": "97076b8686c2a2e3321e93b3a784ef080547d44651ed6f46e7ebd9668e86c442",
+    "passed": true
+  },
+  {
+    "zip": "Lean419_Offline_linux_x86_64.part06.zip",
+    "bytes": 418679422,
+    "sha256": "110f4370c7b2d95d2e24b4fdaa477c00c1a63680cebaa6ae41670f9b17d39fba",
+    "part_sha256": "b1076088e5dbb44a87dc5a8e96059167b638996ea852bac8bd9054e572154d82",
+    "passed": true
+  },
+  {
+    "zip": "Lean419_Offline_linux_x86_64.part07.zip",
+    "bytes": 357787083,
+    "sha256": "4a9392f4871ecdcc0e2bf18401b3d0e20b1735ca02ab04ac01432087464a15a4",
+    "part_sha256": "d91980f4712f0e93446f8147cc699bbf7c9c8a9c244b3662937349c487dd3c69",
+    "passed": true
+  }
+]

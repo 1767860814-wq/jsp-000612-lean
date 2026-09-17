@@ -1,0 +1,121 @@
+{
+  "checked_at_utc": "2026-09-17T13:21:54.045926+00:00",
+  "source_sha256": "587ea5a73de02a7b8916c7ab79baa1755c027c011551330553bfbba076aaa368",
+  "challenge_sha256": "f1eaad9dc205f9f5115954df99bca7506bb6c48c413010789871a586c15b2ed6",
+  "independent_checker": false,
+  "independent_human_review": false,
+  "results": [
+    {
+      "case": "build_challenge",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "required_marker": "",
+      "passed": true,
+      "seconds": 2.129
+    },
+    {
+      "case": "build_gate_support",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "required_marker": "",
+      "passed": true,
+      "seconds": 0.981
+    },
+    {
+      "case": "six_real_statements",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "required_marker": "EXACT_TYPE_AND_AXIOMS_PASS",
+      "passed": true,
+      "seconds": 5.046
+    },
+    {
+      "case": "compile_bad_candidates",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "required_marker": "",
+      "passed": true,
+      "seconds": 2.286
+    },
+    {
+      "case": "changed_to_true",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "required_marker": "TYPE_MISMATCH",
+      "passed": true,
+      "seconds": 2.396
+    },
+    {
+      "case": "explicit_assumption",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "required_marker": "TYPE_MISMATCH",
+      "passed": true,
+      "seconds": 2.332
+    },
+    {
+      "case": "typeclass_assumption",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "required_marker": "TYPE_MISMATCH",
+      "passed": true,
+      "seconds": 2.363
+    },
+    {
+      "case": "invented_axiom",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "required_marker": "UNAPPROVED_AXIOM",
+      "passed": true,
+      "seconds": 3.354
+    },
+    {
+      "case": "sorry",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "required_marker": "UNAPPROVED_AXIOM",
+      "passed": true,
+      "seconds": 2.571
+    },
+    {
+      "case": "not_a_theorem",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "required_marker": "NOT_A_THEOREM",
+      "passed": true,
+      "seconds": 2.811
+    },
+    {
+      "case": "weakened_criticality",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "required_marker": "TYPE_MISMATCH",
+      "passed": true,
+      "seconds": 3.438
+    },
+    {
+      "case": "hardcoded_extremum",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "required_marker": "TYPE_MISMATCH",
+      "passed": true,
+      "seconds": 2.361
+    },
+    {
+      "case": "missing_declaration",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "required_marker": "MISSING_THEOREM",
+      "passed": true,
+      "seconds": 2.62
+    },
+    {
+      "case": "unused_bad_declarations_do_not_taint_good_proof",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "required_marker": "EXACT_TYPE_AND_AXIOMS_PASS",
+      "passed": true,
+      "seconds": 2.697
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "started_at_utc": "2026-09-17T13:31:34.559702+00:00",
+  "finished_at_utc": "2026-09-17T13:34:02.901224+00:00",
+  "local_git_commit": "9861ec0241421719ca5b2893adcf967ce373ea9c",
+  "public_checkout": false,
+  "no_project_build_cache_at_start": true,
+  "no_lake_directory_at_start": true,
+  "restored_third_party_dependency_caches_used": true,
+  "command": [
+    "python3",
+    "/mnt/data/jsp612_work/fresh_checkout/tools/isolate.py",
+    "--uid",
+    "1000",
+    "--gid",
+    "1000",
+    "--cwd",
+    "/mnt/data/jsp612_work/fresh_checkout",
+    "--cpu-seconds",
+    "180",
+    "--memory-mib",
+    "8192",
+    "--",
+    "bash",
+    "verify_submission.sh",
+    "/mnt/data/jsp612_work/env/Lean419_Offline_linux_x86_64"
+  ],
+  "exit_code": 0,
+  "seconds": 148.342,
+  "network_denial_probe_passed": true,
+  "executed_as_uid_1000": true,
+  "full_pipeline_passed": true,
+  "log_sha256": "269700eab09a84d5bc1d3c6577c34ca81a7372e835428c916f1b1643cc56352d"
+}

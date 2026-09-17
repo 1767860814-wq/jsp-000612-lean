@@ -1,0 +1,3 @@
+positive: PASS (exit 0)
+mutation: PASS (exit 1)
+axiom: PASS (exit 1)

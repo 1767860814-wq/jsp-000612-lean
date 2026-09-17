@@ -1,0 +1,5 @@
+UTC: 2026-09-17T13:33:48.525647+00:00
+Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)
+/mnt/data/jsp612_work/fresh_checkout/build/GateCase_missing_declaration.lean:4:0: error: MISSING_THEOREM: RejectedCandidates.doesNotExist
+
+EXIT_CODE: 1

@@ -1,0 +1,45 @@
+{
+  "underlying_checker_implementations": 1,
+  "independent_external_checker_implementations_completed": 0,
+  "source_sha256": "587ea5a73de02a7b8916c7ab79baa1755c027c011551330553bfbba076aaa368",
+  "checker_sha256": "e3d210ea912d0a48191794a27d5eeaa3166cddf045f3f2ffad6f3f24801be75c",
+  "results": [
+    {
+      "case": "positive",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "required_markers": [
+        "FRESH_KERNEL_REPLAY: PASS"
+      ],
+      "control_passed": true,
+      "seconds": 20.22,
+      "log_sha256": "477afcf62aa33c8a80f74630762b34de0f147164e5502e92bf6db34f7441f8ce",
+      "theorem_roots_including_generated": 127,
+      "transitive_closure_declarations": 8000,
+      "explicit_theorems_replayed": 42
+    },
+    {
+      "case": "mutation",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "required_markers": [
+        "INTENTIONAL_PROOF_MUTATION:",
+        "(kernel) declaration type mismatch"
+      ],
+      "control_passed": true,
+      "seconds": 48.357,
+      "log_sha256": "7cf6d7135336e95a33df9eb32e2d9feb39833648abe51fb37a746d6b7260bfb6"
+    },
+    {
+      "case": "axiom",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "required_markers": [
+        "Unapproved axiom: test_only_unproved"
+      ],
+      "control_passed": true,
+      "seconds": 14.998,
+      "log_sha256": "1e6eb32a207c00252a6d81858cc798f8fa201a7c0e154e90c76e4479b4f87a91"
+    }
+  ]
+}

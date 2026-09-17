@@ -1,0 +1,5 @@
+UTC: 2026-09-17T13:33:38.473412+00:00
+Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)
+/mnt/data/jsp612_work/fresh_checkout/build/GateCase_not_a_theorem.lean:4:0: error: NOT_A_THEOREM: RejectedCandidates.notATheorem
+
+EXIT_CODE: 1

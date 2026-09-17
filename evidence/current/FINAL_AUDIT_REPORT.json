@@ -1,0 +1,348 @@
+{
+  "audited_at_utc": "2026-09-17T13:36:07.696345+00:00",
+  "stage": "local_full_reproduction_passed_submission_material_prepared",
+  "intended_submission": "Official review PR for the complete disproof of the original divergence conjecture; NOT award acceptance.",
+  "source": {
+    "file": "JSP000612.lean",
+    "sha256": "587ea5a73de02a7b8916c7ab79baa1755c027c011551330553bfbba076aaa368",
+    "lines": 800,
+    "explicit_theorems": 42,
+    "unchanged_from_previous_extremal_proof": true,
+    "source_rebuild_exit_code": 0,
+    "trust_level": 0,
+    "warnings_as_errors": true
+  },
+  "toolchain": "Lean 4.19.0 / Linux x86_64",
+  "mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "dependency_replay": {
+    "theorem_roots_including_generated": 127,
+    "transitive_declarations": 8000,
+    "explicit_theorems": 42,
+    "results": [
+      {
+        "case": "positive",
+        "exit_code": 0,
+        "expected_exit_code": 0,
+        "required_markers": [
+          "FRESH_KERNEL_REPLAY: PASS"
+        ],
+        "control_passed": true,
+        "seconds": 20.933,
+        "log_sha256": "732e9598ce041ab367e3e03850330057c2949262f38bc46ae932e88ac5a28941",
+        "theorem_roots_including_generated": 127,
+        "transitive_closure_declarations": 8000,
+        "explicit_theorems_replayed": 42
+      },
+      {
+        "case": "mutation",
+        "exit_code": 1,
+        "expected_exit_code": 1,
+        "required_markers": [
+          "INTENTIONAL_PROOF_MUTATION:",
+          "(kernel) declaration type mismatch"
+        ],
+        "control_passed": true,
+        "seconds": 23.995,
+        "log_sha256": "e0c57f76dcc0369433d9ebb68374f04865d6e2673c278eefcf0f52217a4e7c8f"
+      },
+      {
+        "case": "axiom",
+        "exit_code": 1,
+        "expected_exit_code": 1,
+        "required_markers": [
+          "Unapproved axiom: test_only_unproved"
+        ],
+        "control_passed": true,
+        "seconds": 16.175,
+        "log_sha256": "6462612e347dfd382a49f89d583743d43df3f13dda0c90184ca62a5f5ae3ddc2"
+      }
+    ],
+    "same_lean_implementation": true
+  },
+  "statement_gate": {
+    "principal_types_matched": 6,
+    "deliberately_invalid_candidates_rejected": 9,
+    "valid_proof_with_unused_bad_declarations_accepted": true,
+    "results": [
+      {
+        "case": "build_challenge",
+        "exit_code": 0,
+        "expected_exit_code": 0,
+        "required_marker": "",
+        "passed": true,
+        "seconds": 3.713
+      },
+      {
+        "case": "build_gate_support",
+        "exit_code": 0,
+        "expected_exit_code": 0,
+        "required_marker": "",
+        "passed": true,
+        "seconds": 1.084
+      },
+      {
+        "case": "six_real_statements",
+        "exit_code": 0,
+        "expected_exit_code": 0,
+        "required_marker": "EXACT_TYPE_AND_AXIOMS_PASS",
+        "passed": true,
+        "seconds": 4.694
+      },
+      {
+        "case": "compile_bad_candidates",
+        "exit_code": 0,
+        "expected_exit_code": 0,
+        "required_marker": "",
+        "passed": true,
+        "seconds": 2.819
+      },
+      {
+        "case": "changed_to_true",
+        "exit_code": 1,
+        "expected_exit_code": 1,
+        "required_marker": "TYPE_MISMATCH",
+        "passed": true,
+        "seconds": 2.417
+      },
+      {
+        "case": "explicit_assumption",
+        "exit_code": 1,
+        "expected_exit_code": 1,
+        "required_marker": "TYPE_MISMATCH",
+        "passed": true,
+        "seconds": 5.968
+      },
+      {
+        "case": "typeclass_assumption",
+        "exit_code": 1,
+        "expected_exit_code": 1,
+        "required_marker": "TYPE_MISMATCH",
+        "passed": true,
+        "seconds": 5.113
+      },
+      {
+        "case": "invented_axiom",
+        "exit_code": 1,
+        "expected_exit_code": 1,
+        "required_marker": "UNAPPROVED_AXIOM",
+        "passed": true,
+        "seconds": 3.208
+      },
+      {
+        "case": "sorry",
+        "exit_code": 1,
+        "expected_exit_code": 1,
+        "required_marker": "UNAPPROVED_AXIOM",
+        "passed": true,
+        "seconds": 3.524
+      },
+      {
+        "case": "not_a_theorem",
+        "exit_code": 1,
+        "expected_exit_code": 1,
+        "required_marker": "NOT_A_THEOREM",
+        "passed": true,
+        "seconds": 5.889
+      },
+      {
+        "case": "weakened_criticality",
+        "exit_code": 1,
+        "expected_exit_code": 1,
+        "required_marker": "TYPE_MISMATCH",
+        "passed": true,
+        "seconds": 4.344
+      },
+      {
+        "case": "hardcoded_extremum",
+        "exit_code": 1,
+        "expected_exit_code": 1,
+        "required_marker": "TYPE_MISMATCH",
+        "passed": true,
+        "seconds": 3.349
+      },
+      {
+        "case": "missing_declaration",
+        "exit_code": 1,
+        "expected_exit_code": 1,
+        "required_marker": "MISSING_THEOREM",
+        "passed": true,
+        "seconds": 2.353
+      },
+      {
+        "case": "unused_bad_declarations_do_not_taint_good_proof",
+        "exit_code": 0,
+        "expected_exit_code": 0,
+        "required_marker": "EXACT_TYPE_AND_AXIOMS_PASS",
+        "passed": true,
+        "seconds": 4.301
+      }
+    ],
+    "challenge_sha256": "f1eaad9dc205f9f5115954df99bca7506bb6c48c413010789871a586c15b2ed6",
+    "independent_human_review": false,
+    "same_lean_implementation": true,
+    "is_comparator": false
+  },
+  "finite_sanity_tests": {
+    "cases": 16,
+    "exhaustive_cuts": 115600,
+    "passed": true,
+    "is_general_proof": false,
+    "is_independent_lean_checker": false
+  },
+  "submission_helper_unit_tests": {
+    "tests": 19,
+    "passed": true,
+    "test_data_are_not_public_proof_references": true
+  },
+  "fresh_local_checkout": {
+    "started_at_utc": "2026-09-17T13:31:34.559702+00:00",
+    "finished_at_utc": "2026-09-17T13:34:02.901224+00:00",
+    "local_git_commit": "9861ec0241421719ca5b2893adcf967ce373ea9c",
+    "public_checkout": false,
+    "no_project_build_cache_at_start": true,
+    "no_lake_directory_at_start": true,
+    "restored_third_party_dependency_caches_used": true,
+    "command": [
+      "python3",
+      "/mnt/data/jsp612_work/fresh_checkout/tools/isolate.py",
+      "--uid",
+      "1000",
+      "--gid",
+      "1000",
+      "--cwd",
+      "/mnt/data/jsp612_work/fresh_checkout",
+      "--cpu-seconds",
+      "180",
+      "--memory-mib",
+      "8192",
+      "--",
+      "bash",
+      "verify_submission.sh",
+      "/mnt/data/jsp612_work/env/Lean419_Offline_linux_x86_64"
+    ],
+    "exit_code": 0,
+    "seconds": 148.342,
+    "network_denial_probe_passed": true,
+    "executed_as_uid_1000": true,
+    "full_pipeline_passed": true,
+    "log_sha256": "269700eab09a84d5bc1d3c6577c34ca81a7372e835428c916f1b1643cc56352d"
+  },
+  "identical_final_proof_and_checking_files": [
+    {
+      "path": "StatementGate.lean",
+      "sha256": "5fa5c01d3a1995d33900b2d10ed8727dd23a2a9bd9e2ca2887a21288d7ae6d36"
+    },
+    {
+      "path": "JSP000612.lean",
+      "sha256": "587ea5a73de02a7b8916c7ab79baa1755c027c011551330553bfbba076aaa368"
+    },
+    {
+      "path": "lakefile.lean",
+      "sha256": "ef628ddd67096f5edac7313c8fe0d115c2a7fb435b65e3a87decd798a33c6677"
+    },
+    {
+      "path": "SubmissionChallenge.lean",
+      "sha256": "f1eaad9dc205f9f5115954df99bca7506bb6c48c413010789871a586c15b2ed6"
+    },
+    {
+      "path": "GateSupport.lean",
+      "sha256": "f1626cc270ed61b86d9ab0429533dfbba66f0c09e690a5f5f7a7998c5fdbf764"
+    },
+    {
+      "path": "verify.sh",
+      "sha256": "b146cf2139109438814346f3bbd1c404419fd727b10ff27570b53ef0e89e80e8"
+    },
+    {
+      "path": "verify_submission.sh",
+      "sha256": "96ef93204adf2545f5a92ef70b5ed6609957878d36b05781e66658906f931161"
+    },
+    {
+      "path": "verify_offline.sh",
+      "sha256": "cb552010371f2787cde728a08b6636c033371d886ed4ee52543fe3f6ffb622ff"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "91c2ee5f37f32f0539d3c84a207eacd24ae140e8fe26bac53250f888ed56ce7e"
+    },
+    {
+      "path": "tools/check_replay.py",
+      "sha256": "6b9f4fbf12dd28980631bc308f748aaf4cce2d4c319d1631c4c6b6520fe35a76"
+    },
+    {
+      "path": "tools/check_statement_gate.py",
+      "sha256": "d8505238828bafb9acfc7031c7dc58398ca133974bfe9b078b23dc9e387fc874"
+    },
+    {
+      "path": "tools/isolate.py",
+      "sha256": "79e5c2b7035271133d7f7775497870a6bbed571653adff5dd878a79021293f98"
+    },
+    {
+      "path": "tools/prepare_submission.py",
+      "sha256": "8a244c0eb1e5019c3a7be361d92d1ad374ada0d84f9a6c91d449d0fd090a4c21"
+    },
+    {
+      "path": "tools/small_graph_check.py",
+      "sha256": "9ff70fb1768eb10f68cf525ace0d580ae48f576bc4c30a79af3debe575a7f4b7"
+    },
+    {
+      "path": "tools/verify_manifest.py",
+      "sha256": "1e50291485c33e4941467129fd85d7d07ddfe006239f7beb825432a08d62788c"
+    },
+    {
+      "path": "tools/Recheck.lean",
+      "sha256": "e3d210ea912d0a48191794a27d5eeaa3166cddf045f3f2ffad6f3f24801be75c"
+    },
+    {
+      "path": "tests/test_prepare_submission.py",
+      "sha256": "c37501933e5e33251e96d9a51aaf9329c770aaf591faee0aa673d5d8e91502ac"
+    },
+    {
+      "path": "tests/AxiomControl.lean",
+      "sha256": "4ca83bebe0b103371ef6377487eb75d8ce31a532df6b10d79a85336da34b60db"
+    },
+    {
+      "path": "tests/EndpointMutation.lean",
+      "sha256": "f5d0f8d7030fe60896b9c3c17803746571dccde35d64bfedc9590b67728a3d3a"
+    },
+    {
+      "path": "tests/FalseArithmetic.lean",
+      "sha256": "1c68f6dcb3532419d54d8b1de9846175bec4cec5d331f38d4691b41a5ef3a300"
+    },
+    {
+      "path": "tests/Positive.lean",
+      "sha256": "ec4902228ca0d6fc44dc7da738abbd22201c7406b4fe31e83c2dc2a385091e06"
+    },
+    {
+      "path": "tests/RejectedCandidates.lean",
+      "sha256": "b541046f36ee1329597cf730ef701ca3b24bfb576fb68d0a190d86b563d0dc0e"
+    },
+    {
+      "path": "tests/SorryControl.lean",
+      "sha256": "723c3f2246336f4c1736722815184c06484403a8e7b69e1eca676c3402c8062f"
+    }
+  ],
+  "final_archive_verification": "See separately delivered archive receipt: hash and exact-final-ZIP reproduction results are recorded outside the ZIP to avoid self-reference.",
+  "independent_external_checker_implementations_completed": 0,
+  "independent_checker_attempt_status": "No successful Nanoda/Comparator execution. Runtime source acquisition was blocked; same-kernel checks are not substituted as independent verification.",
+  "safe_version_certification": "pending official or qualified independent review",
+  "signed_independent_semantic_review": "pending",
+  "official_scope_decision": "pending; full original-conjecture disproof submitted, not the later sharp universal lower bound or eventual exact formula",
+  "cross_platform_priority": "not adjudicated; no claim that nobody has applied",
+  "public_repository_reference": "not yet supplied by submitter",
+  "public_checkout_verified": false,
+  "internet_dependency_acquisition_executed": false,
+  "official_verification_complete": false,
+  "publicly_submitted": false,
+  "award_confirmed": false,
+  "recipient": "RECIPIENT-JSP-000612-A (unconfirmed)",
+  "provenance_note": "Fresh checkout is local, not a public timestamp. Final proof/checking files exactly match the tested local snapshot; evidence files added after the run are not claimed to have existed before it."
+}
